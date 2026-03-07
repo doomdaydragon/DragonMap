@@ -1,11 +1,11 @@
 # DragonMap v1.0
 
-**DragonMap"" is a fast, multithreaded port scanner with banner grabbing capabilities.
+**DragonMap** is a fast, multithreaded port scanner with banner grabbing capabilities.
 It scans open ports, identifies running services, and generates a detailed summary report in the terminal.
 
 ---
 
-##Features
+## Features
 
 - Multithreaded port scanning
 - scan specific ports, ranges or all ports
@@ -17,21 +17,21 @@ It scans open ports, identifies running services, and generates a detailed summa
 
 ---
 
-##Installation
+## Installation
 
 **Requirements:**
 
 - Python 3.x
 - Linux / Termux / Windows (WSL recommended)
 
-**Steps**
+**Steps:**
 
 ```bash
 git clone https://github.com/doomdaydragon/DragonMap.git
 cd DragonMap
 ```
 
-##Usage
+## Usage
 
 ```bash
 ./dragonmap.sh <target> -p <ports>

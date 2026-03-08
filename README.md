@@ -1,9 +1,13 @@
-# DragonMap v1.0
+# DragonMap v1.1
 
 **DragonMap** is a fast, multithreaded port scanner with banner grabbing capabilities.
 It scans open ports, identifies running services, and generates a detailed summary report in the terminal.
 
 ---
+
+## NEW Features
+
+- UDP Scan
 
 ## Features
 
@@ -35,6 +39,7 @@ cd DragonMap
 
 ```bash
 ./dragonmap.sh <target> -p <ports>
+./dragonmap.sh <target> -p <ports> -sU
 ```
 
 **Examples:**
@@ -44,6 +49,7 @@ cd DragonMap
 ./dragonmap.sh scanme.nmap.org -p 1-1000
 ./dragonmap.sh scanme.nmap.org -p 22,80,443
 ./dragonmap.sh scanme.nmap.org -p all
+./dragonmap.sh scanme.nmap.org -p 1-1000 -sU
 ```
 
 **Made By DoomDayDragon**

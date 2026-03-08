@@ -16,7 +16,7 @@ def show_banner():
                                         aa,    ,88                                                              88           
                                          "Y8bbdP"                                                               88           
 
-												DragonMap v1.0
+												DragonMap v1.1
    										       Fast Multithread Port Scanner
 											  Made by DoomDayDragon!
 {Colors.RESET}
